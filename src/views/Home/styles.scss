@@ -23,7 +23,19 @@ $base-color: #FF0000;
       }
     }
     .right{
-
+      img{
+        max-height: 100%;
+        margin-right: 20px;
+      }
+      nav{
+        display: inline-flex;
+        align-items: center;
+        height: 100%;
+        a{
+          color:black;
+          margin: 0 10px;
+        }
+      }
     }
   }
 }

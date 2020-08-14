@@ -1,40 +1,98 @@
-$base-color: #FF0000;
+$base-color: #000000;
 
 #page-home {
-  .top{
+  font-family: 'Barlow';
+
+  h1.products {
+    color: $base-color;
+    text-transform: uppercase;
+
+    .icon{
+      color: #03FFA5;
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;     
+      text-transform: uppercase;
+    }
+  }
+
+  .productList{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .aboutUs {
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    box-sizing: border-box;
-    padding: 24px 20px;
-    .left{ 
-      img{
-        max-height: 100%;
-        margin-right: 20px;
+
+    .text {
+      width: 35%;
+      padding-right: 10%;
+      box-sizing: border-box;
+
+      h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-top: 0;
       }
-      nav{
-        display: inline-flex;
-        align-items: center;
-        height: 100%;
-        a{
-          color:black;
-          margin: 0 10px;
-        }
+
+      p {
+        font-size: 20px;
+        line-height: 25px;
+        padding-right: 20%;
+      }
+
+      a {
+        display: inline-block;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        margin-top: 25px;
       }
     }
-    .right{
+
+    .image{
+      width: 65%;
+
       img{
-        max-height: 100%;
-        margin-right: 20px;
+        width: 100%;
       }
-      nav{
-        display: inline-flex;
-        align-items: center;
-        height: 100%;
-        a{
-          color:black;
-          margin: 0 10px;
-        }
+    }
+  }
+
+  .contactArea {
+    background-color: #EE0E7D;
+    color: #FFFFFF;
+    height: 480px;
+    text-align: center;
+    padding: 136px 0;
+    box-sizing: border-box;
+
+    p.infoStore {
+      font-size: 32px;
+      max-width: 676px;
+      margin: 0 auto 40px auto;
+      text-transform: uppercase;
+    }
+
+    p.infoContact{
+      span {
+        font-size: 16px;
+      }
+
+      a {
+        display: block;
+        font-size: 32px;
+        color: #FFFFFF;
+        text-decoration: none;
       }
     }
   }

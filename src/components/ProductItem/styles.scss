@@ -1,0 +1,35 @@
+.productItem{
+  padding: 20px;
+
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  h3 {
+    height: 20px;
+  }
+
+  p{
+    height: 100px;
+    overflow:hidden;
+    width: 90%;
+    display: inline-block;
+    text-overflow:ellipsis;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  a{
+    display: block;
+    background: #03FFA5;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+}

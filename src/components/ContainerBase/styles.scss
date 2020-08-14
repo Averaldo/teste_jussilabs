@@ -1,0 +1,9 @@
+.containerBase{
+  display: flex;
+  justify-content: center;
+
+  .containerContent{
+    width: 75vw;
+    height: 100%;
+  }
+}

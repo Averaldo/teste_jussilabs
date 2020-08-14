@@ -1,11 +1,13 @@
 import React from 'react';
+import { AppContextProvider } from "./context/main";
 import './App.css';
 import Routes from './routes'
-//import api from './api';
 
 function App() {
   return (
-    <Routes /> 
+    <AppContextProvider>
+      <Routes /> 
+    </AppContextProvider>
   );
 }
 

@@ -27,10 +27,11 @@ $base-color: #000000;
   .aboutUs {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 
     .text {
       width: 35%;
-      padding-right: 10%;
+      padding-right: 5%;
       box-sizing: border-box;
 
       h2 {
@@ -40,9 +41,9 @@ $base-color: #000000;
       }
 
       p {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 25px;
-        padding-right: 20%;
+        padding-right: 16%;
       }
 
       a {
@@ -50,12 +51,13 @@ $base-color: #000000;
         border: 1px solid #000000;
         box-sizing: border-box;
         border-radius: 6px;
-        padding: 12px 24px;
+        padding: 10px 24px;
         text-decoration: none;
         font-weight: bold;
         color: #000000;
         text-align: center;
         margin-top: 25px;
+        
       }
     }
 
